@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { RiSendPlaneFill } from "react-icons/ri";
+
 import './footerrs.css';
 
 const Footer = () => {
@@ -7,7 +9,7 @@ const Footer = () => {
     <footer className="custom-footer">
       <div className="custom-footer-container">
         <div className="custom-footer-logo">
-        <img className='gwaimage' src="https://s3-alpha-sig.figma.com/img/7fc0/999e/24519e1875e95dc594545f489a4b61a6?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CpaY50yC4P5oMvTIjLa7yI8651rzyZ0CiDtqzBTRBTYdJ1nFaSNUwBthA9U3AdHGI-lN5sTCp0n9uYtdgALHQye0CELuSYgSXDaq~oBWHw4gNqvyu-rIcBsR29tDUsIn0bWZJ3TKnJOjyscSLIR3beYL~kJNIEb3n3k3qoRrCaU0H79EzS8KjbO4gwK6kSVnMd6hmWvsJktQe5x3IvGRCzkJXTM26k4CNKiCGK3-Y5Qp-5YnUisngJ4SssjBaquvto-XO3Py0Td4jeJ8ldrLlwIGvzxSADpfrZVh7N1wUTqZvD6D-pZt1tIPEfIRKr3iTkZGNuRL8ni7svWx4Xcedg__" alt="Description of the image"/>
+        <img className='gwaimage' src="./logo.png" alt="Description of the image"/>
 
           <div className="custom-footer-socials">
             <div className="custom-social-icon">
@@ -46,9 +48,8 @@ const Footer = () => {
             <div className="custom-subscribe-form">
               <input type="email" placeholder="Email Address" />
               <button type="submit">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                  <path fill="white" d="M2 21l21-9-21-9v7l15 2-15 2z"/>
-                </svg>
+              <RiSendPlaneFill />
+  
               </button>
             </div>
           </div>
